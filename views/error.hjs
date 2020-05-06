@@ -1,8 +1,0 @@
-<h1>{{ message }}</h1>
-<h2>{{ error.status }}</h2>
-<pre>{{ error.stack }}</pre>
-
-
-<form>
-    <input type="button" value="Go Back" onClick="javascript:history.go(-1)" />
-</form>
