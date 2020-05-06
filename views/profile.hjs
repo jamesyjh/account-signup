@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ header }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>Profile</h1>
+    <h3>Welcome {{ username }}</h3>
+
+    <form action="/account/logout" method="GET">
+        <input type="submit" value="Logout" />
+    </form><br />
+
+    <h4>Remove Account</h4>
+    <form action="/account/delete" method="POST">
+        <input type="password" name="password" placeholder="Password Required" /><br />
+        <input type="submit" value="Remove Account" />
+    </form>
+</body>
+
+</html>
